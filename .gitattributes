@@ -1,0 +1,13 @@
+# Notes and code are stored with LF
+*.md   text eol=lf
+*.py   text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.json text eol=lf
+*.txt  text eol=lf
+*.db   binary
+*.epub binary
+*.zip  binary
+*.bin  binary
+*.orig -text
+*.bak-* binary

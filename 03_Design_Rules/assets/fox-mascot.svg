@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" aria-label="AureLysnOS Celestial Kitsune Mascot">
+  <defs>
+    <!-- Celestial Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5D6"/>
+      <stop offset="40%" stop-color="#E5BF70"/>
+      <stop offset="100%" stop-color="#9C762B"/>
+    </linearGradient>
+
+    <!-- Peach Pink Soft Fur Gradient -->
+    <linearGradient id="furGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6F2"/>
+      <stop offset="35%" stop-color="#FEE7DC"/>
+      <stop offset="100%" stop-color="#F7C8BA"/>
+    </linearGradient>
+
+    <!-- Deep Inner Ear Gradient -->
+    <linearGradient id="innerEarGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFA8BD"/>
+      <stop offset="100%" stop-color="#EA527A"/>
+    </linearGradient>
+
+    <!-- Electro Purple Gem Gradient -->
+    <linearGradient id="purpleGemGrad" x1="20%" y1="20%" x2="80%" y2="80%">
+      <stop offset="0%" stop-color="#E3CCFF"/>
+      <stop offset="50%" stop-color="#9D6DE8"/>
+      <stop offset="100%" stop-color="#5B29A6"/>
+    </linearGradient>
+
+    <!-- Celestial Aura Glow -->
+    <radialGradient id="haloGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF9A5C" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#D9BE86" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0C1224" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ================= 1. MYTHOLOGICAL CELESTIAL HALO ================= -->
+  <g id="celestial-halo" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="250" cy="250" r="215" fill="url(#haloGlow)" stroke="none"/>
+    <circle cx="250" cy="250" r="224" fill="none" stroke="url(#goldGrad)" stroke-width="1" stroke-opacity="0.35"/>
+    <circle cx="250" cy="250" r="210" fill="none" stroke="url(#goldGrad)" stroke-width="1.8" stroke-opacity="0.8"/>
+    <circle cx="250" cy="250" r="198" fill="none" stroke="url(#goldGrad)" stroke-width="0.75" stroke-dasharray="3 4" stroke-opacity="0.5"/>
+    <circle cx="250" cy="250" r="176" fill="none" stroke="url(#goldGrad)" stroke-width="1" stroke-opacity="0.3"/>
+
+    <!-- 12 Astrological Hour Marks on Halo -->
+    <circle cx="250" cy="40" r="3" fill="#FFEBB8" stroke="url(#goldGrad)" stroke-width="1"/>
+    <circle cx="460" cy="250" r="3" fill="#FFEBB8" stroke="url(#goldGrad)" stroke-width="1"/>
+    <circle cx="250" cy="460" r="3" fill="#FFEBB8" stroke="url(#goldGrad)" stroke-width="1"/>
+    <circle cx="40" cy="250" r="3" fill="#FFEBB8" stroke="url(#goldGrad)" stroke-width="1"/>
+
+    <!-- 4-Pointed Stars (✦) -->
+    <path d="M 250 20 L 253 35 L 268 38 L 253 41 L 250 56 L 247 41 L 232 38 L 247 35 Z" fill="url(#goldGrad)"/>
+    <path d="M 105 105 L 107 115 L 117 117 L 107 119 L 105 129 L 103 119 L 93 117 L 103 115 Z" fill="#FFEBB8" opacity="0.8"/>
+    <path d="M 405 385 L 407 393 L 415 395 L 407 397 L 405 405 L 403 397 L 395 395 L 403 393 Z" fill="#FFEBB8" opacity="0.8"/>
+  </g>
+
+  <!-- ================= 2. SACRED CLOUD RIBBONS ================= -->
+  <g id="cloud-ribbons" fill="#FFFDFB" stroke="url(#goldGrad)" stroke-width="1.2">
+    <!-- Left Cloud Scroll -->
+    <path d="M 60 415 C 70 395, 95 395, 110 405 C 122 392, 150 395, 155 415 C 160 432, 142 448, 120 448 C 88 448, 65 432, 60 415 Z" opacity="0.95"/>
+    <path d="M 78 420 C 86 412, 102 414, 102 424 C 102 432, 90 436, 82 432" fill="none" stroke-width="1"/>
+
+    <!-- Right Cloud Scroll -->
+    <path d="M 440 415 C 430 395, 405 395, 390 405 C 378 392, 350 395, 345 415 C 340 432, 358 448, 380 448 C 412 448, 435 432, 440 415 Z" opacity="0.95"/>
+    <path d="M 422 420 C 414 412, 398 414, 398 424 C 398 432, 410 436, 418 432" fill="none" stroke-width="1"/>
+  </g>
+
+  <!-- ================= 3. YAE FAMILIAR CHIBI KITSUNE ================= -->
+  <g id="kitsune-figure">
+
+    <!-- A. HUGE FLUFFY CURLED BODY & TAIL (Wrapping in Front) -->
+    <!-- Tail Main Mass (Curling up to the left) -->
+    <path d="M 180 370 C 130 375, 55 350, 45 285 C 38 235, 80 200, 125 220 C 105 240, 110 270, 135 285 C 160 300, 215 310, 250 310 C 330 310, 420 330, 440 390 C 455 435, 410 465, 340 465 C 240 465, 175 425, 180 370 Z"
+          fill="url(#furGrad)" stroke="#4A354F" stroke-width="2.5" stroke-linejoin="round"/>
+
+    <!-- Tail White Tip (Large Cloud Scallop at left tip) -->
+    <path d="M 45 285 C 38 235, 80 200, 125 220 C 105 240, 110 270, 135 285 C 115 282, 98 290, 88 305 C 75 300, 60 310, 52 325 C 45 310, 45 295, 45 285 Z"
+          fill="#FFFDFB" stroke="#4A354F" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Left Leg / Hip Curve -->
+    <path d="M 330 330 C 365 345, 375 385, 360 415" fill="none" stroke="#4A354F" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- B. HUGE FLUFFY WHITE CHEST RUFF (Puffy Cloud Bib) -->
+    <path d="M 165 245 C 135 275, 140 335, 175 365 C 205 390, 295 390, 325 365 C 360 335, 365 275, 335 245 C 310 270, 275 282, 250 282 C 225 282, 190 270, 165 245 Z"
+          fill="#FFFDFB" stroke="#4A354F" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Scalloped Chest Tufts -->
+    <path d="M 180 300 C 190 325, 215 335, 230 325 C 240 340, 260 340, 270 325 C 285 335, 310 325, 320 300"
+          fill="none" stroke="#E5DACF" stroke-width="1.6" stroke-linecap="round"/>
+
+    <!-- C. EARS (Fluffy Kitsune Shrine Familiar) -->
+    <!-- LEFT EAR (Slightly tilted outward) -->
+    <g id="ear-left">
+      <path d="M 180 145 C 160 100, 105 50, 82 55 C 65 60, 60 90, 75 130 C 88 165, 118 190, 142 205 Z"
+            fill="url(#furGrad)" stroke="#4A354F" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M 165 140 C 148 105, 108 68, 92 70 C 80 75, 78 98, 88 125 C 98 152, 120 180, 138 192 Z"
+            fill="url(#innerEarGrad)"/>
+      <path d="M 98 135 C 112 130, 125 110, 115 100 C 128 108, 140 100, 132 90 C 145 102, 155 105, 150 125 C 158 122, 165 130, 158 142 Z"
+            fill="#FFFDFB" stroke="#4A354F" stroke-width="1.5" stroke-linejoin="round"/>
+    </g>
+
+    <!-- RIGHT EAR (Upright & Proud) -->
+    <g id="ear-right">
+      <path d="M 320 145 C 340 100, 395 50, 418 55 C 435 60, 440 90, 425 130 C 412 165, 382 190, 358 205 Z"
+            fill="url(#furGrad)" stroke="#4A354F" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M 335 140 C 352 105, 392 68, 408 70 C 420 75, 422 98, 412 125 C 402 152, 380 180, 362 192 Z"
+            fill="url(#innerEarGrad)"/>
+      <path d="M 402 135 C 388 130, 375 110, 385 100 C 372 108, 360 100, 368 90 C 355 102, 345 105, 350 125 C 342 122, 335 130, 342 142 Z"
+            fill="#FFFDFB" stroke="#4A354F" stroke-width="1.5" stroke-linejoin="round"/>
+    </g>
+
+    <!-- D. CHUBBY CHIBI HEAD & CHEEKS -->
+    <!-- Head Base with 3 Cheek Tufts on each side - filled entirely with soft fur gradient -->
+    <path d="M 175 155 C 155 155, 135 170, 125 190
+             C 105 185, 95 200, 102 215
+             C 85 218, 80 235, 92 248
+             C 75 252, 78 272, 105 275
+             C 140 298, 200 302, 250 302
+             C 300 302, 360 298, 395 275
+             C 422 272, 425 252, 408 248
+             C 420 235, 415 218, 398 215
+             C 405 200, 395 185, 375 190
+             C 365 170, 345 155, 325 155 Z"
+          fill="url(#furGrad)" stroke="#4A354F" stroke-width="2.75" stroke-linejoin="round"/>
+
+    <!-- Small Soft Cream-White Muzzle Pad (Under nose and mouth) -->
+    <path d="M 224 235 C 224 220, 276 220, 276 235 C 276 254, 262 264, 250 264 C 238 264, 224 254, 224 235 Z"
+          fill="#FFFDFB"/>
+
+    <!-- FOREHEAD SAKURA BLOSSOM (5 White Petals) -->
+    <g id="forehead-sakura" transform="translate(250, 168)">
+      <circle cx="0" cy="0" r="2.5" fill="#FFE58F"/>
+      <path d="M 0 -2.5 C -3 -9, 3 -9, 0 -2.5 Z" fill="#FFFFFF"/>
+      <path d="M 2.4 -0.8 C 8.5 -3.5, 6.7 2.5, 2.4 -0.8 Z" fill="#FFFFFF"/>
+      <path d="M 1.5 2 C 5.5 7.5, -0.5 8.5, 1.5 2 Z" fill="#FFFFFF"/>
+      <path d="M -1.5 2 C 0.5 8.5, -5.5 7.5, -1.5 2 Z" fill="#FFFFFF"/>
+      <path d="M -2.4 -0.8 C -6.7 2.5, -8.5 -3.5, -2.4 -0.8 Z" fill="#FFFFFF"/>
+    </g>
+
+    <!-- MARU-MAYU (White Oval Eyebrows) -->
+    <ellipse cx="205" cy="188" rx="6" ry="4" transform="rotate(-10, 205, 188)" fill="#FFFFFF"/>
+    <ellipse cx="295" cy="188" rx="6" ry="4" transform="rotate(10, 295, 188)" fill="#FFFFFF"/>
+
+    <!-- SWEET SMILING EYES (Thick Winged Liner / ⌒ ⌒) -->
+    <!-- Left Eye with Winged Crimson/Plum Liner -->
+    <g id="left-eye">
+      <path d="M 178 228 C 188 210, 215 210, 226 226" fill="none" stroke="#A82245" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M 178 228 C 168 225, 160 230, 158 232" fill="none" stroke="#A82245" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 184 226 C 192 214, 212 214, 222 225" fill="none" stroke="#4A354F" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- Right Eye with Winged Crimson/Plum Liner -->
+    <g id="right-eye">
+      <path d="M 274 226 C 285 210, 312 210, 322 228" fill="none" stroke="#A82245" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M 322 228 C 332 225, 340 230, 342 232" fill="none" stroke="#A82245" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 278 225 C 288 214, 308 214, 316 226" fill="none" stroke="#4A354F" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- SOFT CHEEK BLUSH -->
+    <ellipse cx="168" cy="244" rx="14" ry="7" fill="#FF8CA3" opacity="0.45"/>
+    <ellipse cx="332" cy="244" rx="14" ry="7" fill="#FF8CA3" opacity="0.45"/>
+
+    <!-- WHITE WHISKERS (3 Delicate Lines on each cheek) -->
+    <g stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.95">
+      <!-- Left Whiskers -->
+      <line x1="152" y1="238" x2="115" y2="232"/>
+      <line x1="150" y1="245" x2="110" y2="245"/>
+      <line x1="152" y1="252" x2="118" y2="258"/>
+      <!-- Right Whiskers -->
+      <line x1="348" y1="238" x2="385" y2="232"/>
+      <line x1="350" y1="245" x2="390" y2="245"/>
+      <line x1="348" y1="252" x2="382" y2="258"/>
+    </g>
+
+    <!-- TINY BLACK NOSE -->
+    <polygon points="250,234 246,229 254,229" fill="#2E1B27"/>
+
+    <!-- SMUG KITTEN MOUTH (:3) -->
+    <path d="M 241 239 C 245 243, 250 242, 250 238 C 250 242, 255 243, 259 239"
+          fill="none" stroke="#4A354F" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- E. SHRINE MAIDEN EARRINGS (ON BOTH EARS) -->
+    <!-- Left Earring -->
+    <g id="earring-left" transform="translate(112, 258)">
+      <path d="M 12 -28 C 6 -20, 2 -10, 0 0" fill="none" stroke="url(#goldGrad)" stroke-width="1.8"/>
+      <polygon points="0,0 16,18 0,36 -16,18" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linejoin="round"/>
+      <polygon points="0,4 12,18 0,32 -12,18" fill="#1A2544" stroke="none"/>
+      <line x1="-12" y1="6" x2="12" y2="30" stroke="url(#goldGrad)" stroke-width="1.5"/>
+      <line x1="-12" y1="30" x2="12" y2="6" stroke="url(#goldGrad)" stroke-width="1.5"/>
+      <circle cx="0" cy="18" r="8" fill="url(#purpleGemGrad)"/>
+      <circle cx="-2.5" cy="15.5" r="2.2" fill="#FFFFFF" opacity="0.85"/>
+      <path d="M -9 36 L -12 50 L 12 50 L 9 36 Z" fill="url(#goldGrad)" stroke="#8A6A2E" stroke-width="1"/>
+      <line x1="-4" y1="36" x2="-5" y2="50" stroke="#8A6A2E" stroke-width="0.8"/>
+      <line x1="0" y1="36" x2="0" y2="50" stroke="#8A6A2E" stroke-width="0.8"/>
+      <line x1="4" y1="36" x2="5" y2="50" stroke="#8A6A2E" stroke-width="0.8"/>
+    </g>
+
+    <!-- Right Earring -->
+    <g id="earring-right" transform="translate(388, 258)">
+      <path d="M -12 -28 C -6 -20, -2 -10, 0 0" fill="none" stroke="url(#goldGrad)" stroke-width="1.8"/>
+      <polygon points="0,0 16,18 0,36 -16,18" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linejoin="round"/>
+      <polygon points="0,4 12,18 0,32 -12,18" fill="#1A2544" stroke="none"/>
+      <line x1="-12" y1="6" x2="12" y2="30" stroke="url(#goldGrad)" stroke-width="1.5"/>
+      <line x1="-12" y1="30" x2="12" y2="6" stroke="url(#goldGrad)" stroke-width="1.5"/>
+      <circle cx="0" cy="18" r="8" fill="url(#purpleGemGrad)"/>
+      <circle cx="-2.5" cy="15.5" r="2.2" fill="#FFFFFF" opacity="0.85"/>
+      <path d="M -9 36 L -12 50 L 12 50 L 9 36 Z" fill="url(#goldGrad)" stroke="#8A6A2E" stroke-width="1"/>
+      <line x1="-4" y1="36" x2="-5" y2="50" stroke="#8A6A2E" stroke-width="0.8"/>
+      <line x1="0" y1="36" x2="0" y2="50" stroke="#8A6A2E" stroke-width="0.8"/>
+      <line x1="4" y1="36" x2="5" y2="50" stroke="#8A6A2E" stroke-width="0.8"/>
+    </g>
+
+  </g>
+</svg>

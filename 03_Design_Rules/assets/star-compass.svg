@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" aria-label="AureLysnOS Sacred Astrolabe Magic Matrix">
+  <defs>
+    <!-- Celestial Gold Gradient -->
+    <linearGradient id="matrixGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5D6"/>
+      <stop offset="45%" stop-color="#E5BF70"/>
+      <stop offset="100%" stop-color="#A67C2E"/>
+    </linearGradient>
+
+    <!-- Deep Space Gradient for Center Yin & Insets -->
+    <linearGradient id="yinDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A2544"/>
+      <stop offset="100%" stop-color="#0C1224"/>
+    </linearGradient>
+
+    <!-- Ambient Center Glow -->
+    <radialGradient id="centerAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF9A5C" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#E5BF70" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0C1224" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Ambient Backdrop Glow -->
+  <circle cx="250" cy="250" r="230" fill="url(#centerAura)" stroke="none"/>
+
+  <!-- ================= 1. OUTER HORIZON & DEGREE CALIBRATION ================= -->
+  <g id="outer-astrolabe-rim" stroke="url(#matrixGold)">
+    <!-- Outer Border Rings -->
+    <circle cx="250" cy="250" r="232" fill="none" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="250" cy="250" r="226" fill="none" stroke-width="2" stroke-opacity="0.9"/>
+    <circle cx="250" cy="250" r="218" fill="none" stroke-width="0.75" stroke-dasharray="2 3" stroke-opacity="0.6"/>
+    <circle cx="250" cy="250" r="198" fill="none" stroke-width="1.5" stroke-opacity="0.8"/>
+
+    <!-- 24 Celestial Ticks on Rim -->
+    <g id="rim-ticks" stroke-width="1" stroke-opacity="0.65">
+      <!-- 12 Major Hour Markers -->
+      <line x1="250" y1="198" x2="250" y2="226" stroke-width="1.75"/>
+      <line x1="250" y1="274" x2="250" y2="302" transform="rotate(30, 250, 250)"/>
+      <line x1="250" y1="274" x2="250" y2="302" transform="rotate(60, 250, 250)"/>
+      <line x1="250" y1="198" x2="250" y2="226" stroke-width="1.75" transform="rotate(90, 250, 250)"/>
+      <line x1="250" y1="274" x2="250" y2="302" transform="rotate(120, 250, 250)"/>
+      <line x1="250" y1="274" x2="250" y2="302" transform="rotate(150, 250, 250)"/>
+      <line x1="250" y1="198" x2="250" y2="226" stroke-width="1.75" transform="rotate(180, 250, 250)"/>
+      <line x1="250" y1="274" x2="250" y2="302" transform="rotate(210, 250, 250)"/>
+      <line x1="250" y1="274" x2="250" y2="302" transform="rotate(240, 250, 250)"/>
+      <line x1="250" y1="198" x2="250" y2="226" stroke-width="1.75" transform="rotate(270, 250, 250)"/>
+      <line x1="250" y1="274" x2="250" y2="302" transform="rotate(300, 250, 250)"/>
+      <line x1="250" y1="274" x2="250" y2="302" transform="rotate(330, 250, 250)"/>
+    </g>
+
+    <!-- Cardinal Solar & Lunar Crests on Rim -->
+    <!-- North Crown (Polaris Star) -->
+    <path d="M 250 216 L 253 226 L 263 229 L 253 232 L 250 242 L 247 232 L 237 229 L 247 226 Z" fill="url(#matrixGold)" stroke="none"/>
+    <circle cx="250" cy="207" r="3" fill="#FFF5D6"/>
+    <!-- South Anchor -->
+    <circle cx="250" cy="424" r="3.5" fill="none" stroke-width="1.5"/>
+    <!-- East Sunburst -->
+    <circle cx="424" cy="250" r="3.5" fill="none" stroke-width="1.5"/>
+    <!-- West Crescent -->
+    <circle cx="76" cy="250" r="3.5" fill="none" stroke-width="1.5"/>
+  </g>
+
+  <!-- ================= 2. ZODIAC HOUSES & 12 CONSTELLATION SECTORS ================= -->
+  <g id="zodiac-matrix" stroke="url(#matrixGold)">
+    <!-- Dividing Ring -->
+    <circle cx="250" cy="250" r="168" fill="none" stroke-width="1.2" stroke-opacity="0.8"/>
+
+    <!-- 12 Sector Radial Rays -->
+    <g stroke-width="0.8" stroke-opacity="0.45" stroke-dasharray="3 3">
+      <line x1="250" y1="168" x2="250" y2="198"/>
+      <line x1="250" y1="168" x2="250" y2="198" transform="rotate(30, 250, 250)"/>
+      <line x1="250" y1="168" x2="250" y2="198" transform="rotate(60, 250, 250)"/>
+      <line x1="250" y1="168" x2="250" y2="198" transform="rotate(90, 250, 250)"/>
+      <line x1="250" y1="168" x2="250" y2="198" transform="rotate(120, 250, 250)"/>
+      <line x1="250" y1="168" x2="250" y2="198" transform="rotate(150, 250, 250)"/>
+      <line x1="250" y1="168" x2="250" y2="198" transform="rotate(180, 250, 250)"/>
+      <line x1="250" y1="168" x2="250" y2="198" transform="rotate(210, 250, 250)"/>
+      <line x1="250" y1="168" x2="250" y2="198" transform="rotate(240, 250, 250)"/>
+      <line x1="250" y1="168" x2="250" y2="198" transform="rotate(270, 250, 250)"/>
+      <line x1="250" y1="168" x2="250" y2="198" transform="rotate(300, 250, 250)"/>
+      <line x1="250" y1="168" x2="250" y2="198" transform="rotate(330, 250, 250)"/>
+    </g>
+
+    <!-- 12 Constellation Seal Glyphs (Delicate Celestial Dots & Triangles) -->
+    <g id="zodiac-glyphs" fill="url(#matrixGold)" stroke="none" opacity="0.85">
+      <!-- Aries / 15 deg --> <circle cx="297" cy="69" r="2"/>
+      <!-- Taurus / 45 deg --> <polygon points="378,118 382,125 374,125"/>
+      <!-- Gemini / 75 deg --> <circle cx="426" cy="197" r="2"/>
+      <!-- Cancer / 105 deg --> <polygon points="428,297 433,304 423,304"/>
+      <!-- Leo / 135 deg --> <circle cx="380" cy="378" r="2.2"/>
+      <!-- Virgo / 165 deg --> <polygon points="300,430 305,437 295,437"/>
+      <!-- Libra / 195 deg --> <circle cx="197" cy="426" r="2"/>
+      <!-- Scorpio / 225 deg --> <polygon points="122,382 127,375 117,375"/>
+      <!-- Sagittarius / 255 deg --> <circle cx="74" cy="297" r="2"/>
+      <!-- Capricorn / 285 deg --> <polygon points="72,197 67,204 77,204"/>
+      <!-- Aquarius / 315 deg --> <circle cx="120" cy="122" r="2.2"/>
+      <!-- Pisces / 345 deg --> <polygon points="200,70 195,77 205,77"/>
+    </g>
+  </g>
+
+  <!-- ================= 3. SACRED GEOMETRY (INTERSECTING OCTAGRAM) ================= -->
+  <g id="sacred-octagram" stroke="url(#matrixGold)" stroke-width="1.2" fill="none">
+    <!-- Two Interlocking Rotated Squares forming an 8-Pointed Star -->
+    <rect x="131" y="131" width="238" height="238" stroke-opacity="0.65"/>
+    <rect x="131" y="131" width="238" height="238" transform="rotate(45, 250, 250)" stroke-opacity="0.65"/>
+
+    <!-- Connecting Celestial Orbit Ring -->
+    <circle cx="250" cy="250" r="135" stroke-width="1" stroke-dasharray="4 4" stroke-opacity="0.5"/>
+    <circle cx="250" cy="250" r="112" stroke-width="1.5" stroke-opacity="0.8"/>
+  </g>
+
+  <!-- ================= 4. BÁT QUÁI (THE 8 SACRED TRIGRAMS) ================= -->
+  <g id="bat-quai" stroke="url(#matrixGold)" stroke-width="2" stroke-linecap="round">
+    <!-- Trigram 1: CÀN ☰ (Heaven / Top 0°) -->
+    <g transform="translate(250, 150)">
+      <line x1="-14" y1="-8" x2="14" y2="-8"/>
+      <line x1="-14" y1="-3" x2="14" y2="-3"/>
+      <line x1="-14" y1="2" x2="14" y2="2"/>
+    </g>
+
+    <!-- Trigram 2: ĐOÀI ☱ (Lake / 45°) -->
+    <g transform="rotate(45, 250, 250) translate(250, 150)">
+      <line x1="-14" y1="-8" x2="-3" y2="-8"/> <line x1="3" y1="-8" x2="14" y2="-8"/>
+      <line x1="-14" y1="-3" x2="14" y2="-3"/>
+      <line x1="-14" y1="2" x2="14" y2="2"/>
+    </g>
+
+    <!-- Trigram 3: LY ☲ (Fire / 90°) -->
+    <g transform="rotate(90, 250, 250) translate(250, 150)">
+      <line x1="-14" y1="-8" x2="14" y2="-8"/>
+      <line x1="-14" y1="-3" x2="-3" y2="-3"/> <line x1="3" y1="-3" x2="14" y2="-3"/>
+      <line x1="-14" y1="2" x2="14" y2="2"/>
+    </g>
+
+    <!-- Trigram 4: CHẤN ☳ (Thunder / 135°) -->
+    <g transform="rotate(135, 250, 250) translate(250, 150)">
+      <line x1="-14" y1="-8" x2="-3" y2="-8"/> <line x1="3" y1="-8" x2="14" y2="-8"/>
+      <line x1="-14" y1="-3" x2="-3" y2="-3"/> <line x1="3" y1="-3" x2="14" y2="-3"/>
+      <line x1="-14" y1="2" x2="14" y2="2"/>
+    </g>
+
+    <!-- Trigram 5: KHÔN ☷ (Earth / 180°) -->
+    <g transform="rotate(180, 250, 250) translate(250, 150)">
+      <line x1="-14" y1="-8" x2="-3" y2="-8"/> <line x1="3" y1="-8" x2="14" y2="-8"/>
+      <line x1="-14" y1="-3" x2="-3" y2="-3"/> <line x1="3" y1="-3" x2="14" y2="-3"/>
+      <line x1="-14" y1="2" x2="-3" y2="2"/> <line x1="3" y1="2" x2="14" y2="2"/>
+    </g>
+
+    <!-- Trigram 6: CẤN ☶ (Mountain / 225°) -->
+    <g transform="rotate(225, 250, 250) translate(250, 150)">
+      <line x1="-14" y1="-8" x2="14" y2="-8"/>
+      <line x1="-14" y1="-3" x2="-3" y2="-3"/> <line x1="3" y1="-3" x2="14" y2="-3"/>
+      <line x1="-14" y1="2" x2="-3" y2="2"/> <line x1="3" y1="2" x2="14" y2="2"/>
+    </g>
+
+    <!-- Trigram 7: KHẢM ☵ (Water / 270°) -->
+    <g transform="rotate(270, 250, 250) translate(250, 150)">
+      <line x1="-14" y1="-8" x2="-3" y2="-8"/> <line x1="3" y1="-8" x2="14" y2="-8"/>
+      <line x1="-14" y1="-3" x2="14" y2="-3"/>
+      <line x1="-14" y1="2" x2="-3" y2="2"/> <line x1="3" y1="2" x2="14" y2="2"/>
+    </g>
+
+    <!-- Trigram 8: TỐN ☴ (Wind / 315°) -->
+    <g transform="rotate(315, 250, 250) translate(250, 150)">
+      <line x1="-14" y1="-8" x2="14" y2="-8"/>
+      <line x1="-14" y1="-3" x2="14" y2="-3"/>
+      <line x1="-14" y1="2" x2="-3" y2="2"/> <line x1="3" y1="2" x2="14" y2="2"/>
+    </g>
+  </g>
+
+  <!-- ================= 5. CENTER THÁI CỰC ÂM DƯƠNG (YIN-YANG CORE MATRIX) ================= -->
+  <g id="yin-yang-core">
+    <!-- Inner Frame Ring -->
+    <circle cx="250" cy="250" r="54" fill="none" stroke="url(#matrixGold)" stroke-width="1.8"/>
+    <circle cx="250" cy="250" r="48" fill="none" stroke="url(#matrixGold)" stroke-width="0.75" stroke-dasharray="2 2" stroke-opacity="0.6"/>
+
+    <!-- Base Yang (Light Ivory Gold) Half -->
+    <circle cx="250" cy="250" r="46" fill="#FFF6DE"/>
+
+    <!-- Yin (Navy Midnight Space) Half S-Curve -->
+    <path d="M 250 204 A 46 46 0 0 1 250 296 A 23 23 0 0 1 250 250 A 23 23 0 0 0 250 204 Z"
+          fill="url(#yinDark)" stroke="url(#matrixGold)" stroke-width="0.75"/>
+
+    <!-- Light Sun Dot inside Yin Space -->
+    <circle cx="250" cy="227" r="5" fill="#FFEAA8" stroke="url(#matrixGold)" stroke-width="0.75"/>
+
+    <!-- Dark Moon Dot inside Yang Space -->
+    <circle cx="250" cy="273" r="5" fill="#0C1224" stroke="url(#matrixGold)" stroke-width="0.75"/>
+  </g>
+</svg>

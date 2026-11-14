@@ -1,0 +1,7 @@
+# AureLysn — Portfolio repository
+node_modules/
+.claude/
+Thumbs.db
+desktop.ini
+.env
+.env.*
