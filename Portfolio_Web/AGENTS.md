@@ -27,7 +27,7 @@ None of those rules are restated here — a rule written in two places is two ru
 ## Git — core in plugin `git-chung`
 
 Read `git-chung:git-an-toan` before any git command. Commits are made in the `Portfolio` repository at `04_Portfolio/`.
-The branch rule below was written when this folder was a repository of its own; whether it applies to the `Portfolio` repository is open item `HT-043`. What this folder adds:
+The `Portfolio` repository works by branch → PR like every other repository (`git-an-toan` §1.3, Aurel 2026-11-14). What this folder adds:
 
 - **Branch:** `<type>/<yyyy-mm-dd>-<viec-khong-dau>`, `type` = `feat` · `fix` · `docs` · `chore` —
   the same words the commit subjects already use. **Never commit on `main`**: everything
