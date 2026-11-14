@@ -23,6 +23,7 @@ The showcase zone of the AureLysn vault. It is a repository of its own, placed a
 | `01_Design_Showcase/` | Showcase cards: design, 2D-3D animation, game, branding and event work |
 | `02_Writing_Anthology/` | Writing showcase (empty for now) |
 | `03_Design_Rules/` | Design standards: tokens (`tokens.json`, `tokens.css`), SVG marks and the UI system |
+| `Portfolio_Web/` | Code of the portfolio website (Astro). Read `Portfolio_Web/AGENTS.md` before working in it |
 
 Start from `_PORTFOLIO-MOC.md`.
 
@@ -30,4 +31,3 @@ Start from `_PORTFOLIO-MOC.md`.
 
 - Project files and finished masters. Each showcase card names its archive folder; the files are kept in storage outside this repository.
 - Case studies and project records the cards link to (`[[case-study-…]]`, `[[2024-salad]]` and the like). They belong to the private vault and do not resolve here.
-- The code of the portfolio website, which has its own repository.

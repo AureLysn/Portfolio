@@ -1,0 +1,17 @@
+# Chuan hoa LF ngay tu commit dau (23/09/2026).
+# May dang bat core.autocrlf=true o cau hinh chung: khong co file nay, git doi LF -> CRLF
+# moi lan checkout, trong khi Astro/Node ghi LF - dung loai loi duoi dong vault da tra gia
+# (nhat-ky-loi L27, L32). Vault phai dung `-text` vi da lan 217 CRLF + 138 LF; repo moi
+# thi chua lan gi, nen chuan hoa bay gio la re nhat.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.mp4 binary
+*.webm binary
+*.woff binary
+*.woff2 binary
