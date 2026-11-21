@@ -11,7 +11,7 @@ tags: [d/doc, k/note, p/portfolio]
 last_updated: 2026-11-14
 ---
 
-# AureLysn — Portfolio and design standards
+# AureLysn — Portfolio
 
 The showcase zone of the AureLysn vault. It is a repository of its own, placed at
 `04_Portfolio/` inside the vault. Notes are written for Obsidian.
@@ -22,8 +22,7 @@ The showcase zone of the AureLysn vault. It is a repository of its own, placed a
 |---|---|
 | `01_Design_Showcase/` | Showcase cards: design, 2D-3D animation, game, branding and event work |
 | `02_Writing_Anthology/` | Writing showcase (empty for now) |
-| `03_Design_Rules/` | Design standards: tokens (`tokens.json`, `tokens.css`), SVG marks and the UI system |
-| `Portfolio_Web/` | Code of the portfolio website (Astro). Read `Portfolio_Web/AGENTS.md` before working in it |
+| `Portfolio_Web/` | Code of the portfolio website (Astro). Read `Portfolio_Web/CLAUDE.md` before working in it |
 
 Start from `_PORTFOLIO-MOC.md`.
 
