@@ -14,8 +14,8 @@ last_updated: 2026-11-14
 
 # `04_Portfolio/` — Map of Content
 
-> **Role:** Curated public showcase and design standards of **AureLysn**. This folder is a public repository of its own; portfolio planning notes are kept in the private vault.
-> **Cold start:** Read [[_DESIGN-SHOWCASE-MOC]], then the design standards in `03_Design_Rules/`.
+> **Role:** Curated public showcase of **AureLysn**. This folder is a public repository of its own; portfolio planning notes are kept in the private vault.
+> **Cold start:** Read [[_DESIGN-SHOWCASE-MOC]].
 > **Hard boundary:** Public portfolio material draws exclusively from `lane: work` and `lane: shared` professional identity records — **never** from `lane: personal` (`05_Evasion/`).
 
 ---
@@ -26,7 +26,6 @@ last_updated: 2026-11-14
 |---|---|
 | `04_Portfolio/01_Design_Showcase/` | Curated visual design, 2D-3D animation, game, branding, and event case studies ready for external presentation |
 | `04_Portfolio/02_Writing_Anthology/` | Curated professional and analytical writing showcase |
-| `04_Portfolio/03_Design_Rules/` | Design standards: the token set (`tokens.json`, `tokens.css`), SVG marks (`assets/`) and the UI system (`aurelysnos-design-system.md`) |
 | `04_Portfolio/Portfolio_Web/` | Code of the portfolio website (Astro). Not a notes folder: the index and the gates skip it (`.vaultignore`) |
 
 ---
