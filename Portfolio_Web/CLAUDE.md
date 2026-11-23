@@ -25,9 +25,9 @@ None of those rules are restated here — a rule written in two places is two ru
    **Anything else here is zipped every time** — keep heavy media (video, source PSDs) out of this
    tree.
 
-## Git — core in plugin `git-chung`
+## Git — core in plugin `git-guard` (named `git-chung` until 2026-11-23)
 
-Read `git-chung:git-an-toan` before any git command. Commits are made in the `Portfolio` repository at `04_Portfolio/`.
+Read `git-guard:git-an-toan` before any git command. Commits are made in the `Portfolio` repository at `04_Portfolio/`.
 The `Portfolio` repository works by branch → PR like every other repository (`git-an-toan` §1.3, Aurel 2026-11-14). What this folder adds:
 
 - **Branch:** `<type>/<yyyy-mm-dd>-<viec-khong-dau>`, `type` = `feat` · `fix` · `docs` · `chore` —
